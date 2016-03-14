@@ -56,3 +56,27 @@ body {
 	color: #B0DEE9;
 	text-align: center;
 }
+
+#service-provided li {
+	display: inline;
+}
+
+.description {
+	height: 60%;
+	width: 70%;
+	margin: auto;
+}
+
+#first {
+	background-color: #FCFF92
+}
+
+#second {
+	background-color: #B0DEE9;
+	display: none;
+}
+
+#third {
+	background-color: #E0E0E0;
+	display: none;
+}
