@@ -84,3 +84,22 @@ body {
 	background-color: #E0E0E0;
 	display: none;
 }
+
+.circle {
+	display: inline-block;
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+}
+
+#circle1 {
+	background-color: #B0DEE9;
+}
+
+#circle2 {
+	background-color: #FCFF92;
+}
+
+#circle3 {
+	background-color: #E0E0E0;
+}
