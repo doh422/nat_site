@@ -1,15 +1,15 @@
 var main = function() {
 	// toggle between services provided divs
-	$('#service1').click(function() {
-		$('.description').hide();
+	$('#tab1').click(function() {
+		$('.tab-content').hide();
 		$('#first').show();
 	});
-	$('#service2').click(function() {
-		$('.description').hide();
+	$('#tab2').click(function() {
+		$('.tab-content').hide();
 		$('#second').show();
 	});
-	$('#service3').click(function() {
-		$('.description').hide();
+	$('#tab3').click(function() {
+		$('.tab-content').hide();
 		$('#third').show();
 	});
 };

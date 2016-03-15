@@ -29,7 +29,7 @@ body {
 #nav li {
 	display: inline;
 	margin-left: 1em;
-	margin
+	list-style-type: none;
 }
 
 #nav a {
@@ -53,19 +53,25 @@ body {
 }
 
 .heading {
-	color: #B0DEE9;
+/*	color: #B0DEE9; */
+	color: black;
 	text-align: center;
 }
 
-#service-provided li {
+#tabs {
+	text-align: center;
+}
+
+#tabs li {
 	display: inline;
 	border-top: 2px solid black;
 	border-right: 2px solid black;
 	border-left: 2px solid black;
 	border-radius: 8px 8px 0px 0px;
+	list-style-type: none;
 }
 
-.description {
+.tab-content {
 	height: 60%;
 	width: 70%;
 	margin: auto;
@@ -83,6 +89,13 @@ body {
 #third {
 	background-color: #E0E0E0;
 	display: none;
+}
+
+.theme {
+	position: relative;
+	z-index: -1;
+	text-align: center;
+	top: -3.75em;
 }
 
 .circle {
