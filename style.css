@@ -61,6 +61,14 @@ body {
 	text-align: center;
 }
 
+#cloud-pic {
+	width: 100%;
+	height: 40%;
+	background-image: url(assets/rainbow-in-the-clouds.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
 #tabs {
 	text-align: center;
 }
@@ -121,4 +129,13 @@ body {
 
 #circle3 {
 	background-color: #E0E0E0;
+}
+
+.content {
+	height: 100%;
+	width: 100%;
+	background-image: url(assets/resource-page.jpg);
+	background-size: cover;
+	background-position: center;
+	opacity: .7;
 }
