@@ -63,11 +63,11 @@ body {
 	color: black;
 }
 
-figure {
+#headshot {
 	margin: 0;
-	display: inline;
-	height: 10%;
-	width: 5%;
+}
+
+#about-content {
 }
 
 #cloud-pic {
