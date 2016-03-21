@@ -79,7 +79,7 @@ body {
 #cloud-pic {
 	width: 100%;
 	height: 40%;
-	background: url(assets/rainbow-in-the-clouds.jpg) fixed;
+	background: url(assets/rainbow-in-the-clouds.png) fixed;
 	background-size: cover;
 	background-position: center;
 }
