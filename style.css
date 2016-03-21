@@ -54,7 +54,6 @@ body {
 }
 
 .page {
-	height: 100%;
 	margin-top: 10%;
 	margin-bottom: 5%;
 }
@@ -62,6 +61,13 @@ body {
 .heading {
 /*	color: #B0DEE9; */
 	color: black;
+}
+
+figure {
+	margin: 0;
+	display: inline;
+	height: 10%;
+	width: 5%;
 }
 
 #cloud-pic {
