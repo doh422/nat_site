@@ -7,12 +7,13 @@ body {
 	margin: auto;
 	color: #B0DEE9;
 	text-align: center;
+	padding-top: 5%;
 }
 
 #nav {
 	margin: auto;
 	text-align: center;
-	padding: 0;
+	padding: 2% 0 3% 0;
 }
 
 #nav li {
