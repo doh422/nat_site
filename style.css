@@ -3,27 +3,16 @@ body {
 	margin-right: 5%; 
 }
 
-#header {
-	width: 100%;
-	height: 10%;
-/*	background-color: #FCFF92;
-*/}
-
 #name {
-	height: 100%;
-	margin: 0;
-	display: flex;
-	float: left;
-	align-items: center;
+	margin: auto;
 	color: #B0DEE9;
+	text-align: center;
 }
 
 #nav {
-	float: right;
-	height: 100%;
-	margin: 0;
-	display: flex;
-	align-items: center;
+	margin: auto;
+	text-align: center;
+	padding: 0;
 }
 
 #nav li {
@@ -48,7 +37,6 @@ body {
 	}
 
 	#nav li:nth-child(1) {
-		float: right;
 		display: inline;
 	}
 
