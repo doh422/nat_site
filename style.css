@@ -10,38 +10,42 @@ body {
 	padding-top: 5%;
 }
 
-#nav {
+#fixed-nav {
+	display: none;
+}
+
+.nav {
 	margin: auto;
 	text-align: center;
 	padding: 2% 0 3% 0;
 }
 
-#nav li {
+.nav li {
 	display: inline;
 	margin-left: 1em;
 	list-style-type: none;
 }
 
-#nav a {
+.nav a {
 	text-decoration: none;
 	color: black;
 }
 
-#nav a:hover {
+.nav a:hover {
 	color: #FCFF92;
 	text-decoration: underline;
 }
 
 @media screen and (max-width:558px) {
-	#nav li {
+	.nav li {
 		display: none;
 	}
 
-	#nav li:nth-child(1) {
+	.nav li:nth-child(1) {
 		display: inline;
 	}
 
-	#nav li:nth-child(1) a:before {
+	.nav li:nth-child(1) a:before {
 		content: '\2630';
 	}
 }
