@@ -45,6 +45,11 @@ var main = function() {
 		return false;
 	});
 
+	$('#main-nav .nav li:nth-child(1)').on('click', function() {
+		event.preventDefault();
+		$(this).siblings().slideToggle();
+	});
+
 };
 
 
