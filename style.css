@@ -113,6 +113,7 @@ body {
 
 #tabs {
 	text-align: center;
+	padding: 0;
 }
 
 #tabs li {
@@ -125,14 +126,26 @@ body {
 	list-style-type: none;
 }
 
+#tab1 {
+	background-color: #FCFF92;
+}
+
+#tab2 {
+	background-color: #B0DEE9
+}
+
+#tab3 {
+	background-color: #E0E0E0;
+}
+
 .tab-content {
 	height: 60%;
-	width: 70%;
+	width: 100%;
 	margin: auto;
 }
 
 #first {
-	background-color: #FCFF92
+	background-color: #FCFF92;
 }
 
 #second {
@@ -143,8 +156,11 @@ body {
 #third {
 	background-color: #E0E0E0;
 	display: none;
-	background: url(assets/img_1004.jpg) no-repeat;
-	background-size: contain;
+}
+
+#lola {
+	height: 400px;
+	width: 400px;
 }
 
 .theme {
