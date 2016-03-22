@@ -13,7 +13,6 @@ body {
 #main-nav {
 	position: relative;
 	background: white;
-	width: 100%;
 }
 
 .nav {
@@ -24,8 +23,13 @@ body {
 
 .nav li {
 	display: inline;
-	margin-left: 1em;
+	margin-right: 1em;
 	list-style-type: none;
+}
+
+/* hide first link when no hambuger link present */
+.nav li:nth-child(1) {
+	display: none;
 }
 
 .nav a {
@@ -56,6 +60,8 @@ body {
 #main-nav.sticky {
 	position: fixed;
 	top: 0;
+	left: 0;
+	width: 100%;
 }
 
 #main {

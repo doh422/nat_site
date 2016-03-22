@@ -15,7 +15,7 @@ var main = function() {
 
 	// stick nav
 	$(window).scroll(function() {
-		if ($(this).scrollTop() >= 200) {
+		if ($(this).scrollTop() >= 90) {
 			$('#main-nav').addClass('sticky');
 		} else {
 			$('#main-nav').removeClass('sticky');
