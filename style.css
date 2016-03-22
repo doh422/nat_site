@@ -10,6 +10,12 @@ body {
 	padding-top: 5%;
 }
 
+#main-nav {
+	position: relative;
+	background: white;
+	width: 100%;
+}
+
 .nav {
 	margin: auto;
 	text-align: center;
@@ -44,6 +50,12 @@ body {
 	.nav li:nth-child(1) a:before {
 		content: '\2630';
 	}
+}
+
+/* add sticky class to navbar */
+#main-nav.sticky {
+	position: fixed;
+	top: 0;
 }
 
 #main {

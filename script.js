@@ -13,18 +13,15 @@ var main = function() {
 		$('#third').show();
 	});
 
-	// have sticky fixed nav appear
-	$(window).on('scroll', function() {
-		var scrolltop = $(this).scrollTop();
-
-		if(scrolltop >= 215) {
-			$('#fixed-nav').fadeIn(250);
-		}
-
-		else if(scrolltop <= 210) {
-			$('#fixed-nav').fadeOut(250);
+	// stick nav
+	$(window).scroll(function() {
+		if ($(this).scrollTop() >= 200) {
+			$('#main-nav').addClass('sticky');
+		} else {
+			$('#main-nav').removeClass('sticky');
 		}
 	});
+
 };
 
 
