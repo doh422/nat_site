@@ -32,7 +32,7 @@ var main = function() {
 		}, 1000);
 	}
 
-	$('#main-nav .nav li a').click(function() {
+	$('#main-nav .nav li .link').click(function() {
 		// store href value in el variable
 		var el = $(this).attr('href');
 		// wrap variable so we can use jQuery

@@ -43,6 +43,7 @@ body {
 	text-decoration: underline;
 }
 
+/* replace nav links with hamburger */
 @media screen and (max-width:558px) {
 	.nav li {
 		display: none;
@@ -131,11 +132,11 @@ body {
 }
 
 #tab1 {
-	background-color: #FCFF92;
+	background-color: #B0DEE9;
 }
 
 #tab2 {
-	background-color: #B0DEE9
+	background-color: #FCFF92;
 }
 
 #tab3 {
@@ -149,11 +150,11 @@ body {
 }
 
 #first {
-	background-color: #FCFF92;
+	background-color: #B0DEE9;
 }
 
 #second {
-	background-color: #B0DEE9;
+	background-color: #FCFF92;
 	display: none;
 }
 
