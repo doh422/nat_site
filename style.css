@@ -69,7 +69,7 @@ body {
 #main {
 	width: 100%;
 	height: 90%;
-	background-image: url("https://s-media-cache-ak0.pinimg.com/736x/aa/2d/be/aa2dbed8fe8e3f7ac34ffa69cee2408d.jpg");
+	background: url("https://s-media-cache-ak0.pinimg.com/736x/aa/2d/be/aa2dbed8fe8e3f7ac34ffa69cee2408d.jpg") no-repeat;
 	background-size: cover;
 }
 
@@ -96,6 +96,15 @@ body {
 	background: url(assets/rainbow-in-the-clouds.png) fixed;
 	background-size: cover;
 	background-position: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#cloud-pic h4 {
+	text-align: center;
+	font-size: 2em;
+	color: white;
 }
 
 #tabs {
