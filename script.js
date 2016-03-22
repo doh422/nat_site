@@ -15,7 +15,7 @@ var main = function() {
 
 	// stick nav
 	$(window).scroll(function() {
-		if ($(this).scrollTop() >= 105) {
+		if ($(this).scrollTop() >= 100) {
 			$('#main-nav').addClass('sticky');
 		} else {
 			$('#main-nav').removeClass('sticky');
@@ -39,7 +39,7 @@ var main = function() {
 		var elWrapped = $(el);
 
 		// use scroll function
-		scrollToDiv(elWrapped,70);
+		scrollToDiv(elWrapped,75);
 
 		// return false so link doesn't go directly to page without animation
 		return false;
