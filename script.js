@@ -12,6 +12,10 @@ var main = function() {
 		$('.tab-content').hide();
 		$('#third').show();
 	});
+	$('#tab4').click(function() {
+		$('.tab-content').hide();
+		$('#fourth').show();
+	});
 
 	// stick nav
 	$(window).scroll(function() {

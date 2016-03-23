@@ -143,6 +143,10 @@ body {
 	background-color: #E0E0E0;
 }
 
+#tab4 {
+	background-color: #B0DEE9;
+}
+
 .tab-content {
 	height: 60%;
 	width: 100%;
@@ -160,6 +164,11 @@ body {
 
 #third {
 	background-color: #E0E0E0;
+	display: none;
+}
+
+#fourth {
+	background-color: #B0DEE9;
 	display: none;
 }
 
