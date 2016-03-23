@@ -121,7 +121,17 @@ body {
 	color: white;
 }
 
-#mission-statement {
+#mission-statement h3{
+	text-align: center;
+}
+
+#mission-list {
+	text-align: center;
+}
+
+#mission-list ul {
+	display: inline-block;
+	text-align: left;
 }
 
 #tabs {
@@ -297,4 +307,24 @@ body {
 
 #resource-logo img {
 	height: 150px;
+}
+
+#contact-content {
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#contact-info {
+	display: inline-block;
+	margin-right: 2em;
+}
+
+#map {
+	display: inline-block;
+}
+
+#map img {
+	height: 300px;
 }
