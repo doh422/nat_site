@@ -83,6 +83,7 @@ body {
 /*	color: #B0DEE9; */
 	color: black;
 	font-size: 1.75em;
+	font-weight: lighter;
 }
 
 #headshot {
@@ -120,8 +121,7 @@ body {
 	color: white;
 }
 
-#mission-statement ul {
-
+#mission-statement {
 }
 
 #tabs {
