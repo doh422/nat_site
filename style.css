@@ -193,11 +193,6 @@ body {
 	background-color: #E0E0E0;
 }
 
-.content {
-	height: 100%;
-	width: 100%;
-	background: url(assets/resource-page.jpg);
-	background-size: cover;
-	background-position: center;
-	opacity: .7;
+#resources .content {
+	
 }
