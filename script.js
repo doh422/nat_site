@@ -6,7 +6,7 @@ var main = function() {
 	});
 	$('#tab2').click(function() {
 		$('.tab-content').hide();
-		$('#second').show();
+		$('#second').show().css('display', 'flex');
 	});
 	$('#tab3').click(function() {
 		$('.tab-content').hide();
@@ -14,7 +14,7 @@ var main = function() {
 	});
 	$('#tab4').click(function() {
 		$('.tab-content').hide();
-		$('#fourth').show();
+		$('#fourth').show().css('display', 'flex');
 	});
 
 	// stick nav
