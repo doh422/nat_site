@@ -148,9 +148,15 @@ body {
 }
 
 .tab-content {
-	height: 60%;
 	width: 100%;
 	margin: auto;
+	overflow: auto;
+}
+
+.tab-content img {
+	float: left;
+	height: 300px;
+	margin-right: 2em;
 }
 
 #first {
