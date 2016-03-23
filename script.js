@@ -43,7 +43,7 @@ var main = function() {
 		var elWrapped = $(el);
 
 		// use scroll function
-		scrollToDiv(elWrapped,75);
+		scrollToDiv(elWrapped,100);
 
 		// return false so link doesn't go directly to page without animation
 		return false;
