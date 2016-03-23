@@ -19,7 +19,7 @@ body {
 .nav {
 	margin: auto;
 	text-align: center;
-	padding: 2% 0 3% 0;
+	padding: 2% 0 2% 0;
 }
 
 .nav li {
@@ -69,13 +69,13 @@ body {
 
 #main {
 	width: 100%;
-	height: 90%;
-	background: url("https://s-media-cache-ak0.pinimg.com/736x/aa/2d/be/aa2dbed8fe8e3f7ac34ffa69cee2408d.jpg") no-repeat;
+	height: 100%;
+	background: url("assets/office2.jpg") no-repeat;
 	background-size: cover;
 }
 
 .page {
-	margin-top: 10%;
+	margin-top: 5%;
 	margin-bottom: 5%;
 }
 
@@ -87,12 +87,20 @@ body {
 
 #headshot {
 	margin: 0 10px 0 0;
-	display: inline-block;
-	float: left
+	float: left;
 }
 
 #natalie {
 	height: 150px;
+}
+
+#about-icons {
+	float: right;
+}
+
+#about-icons img {
+	height: 100px;
+	display: block;
 }
 
 #cloud-pic {
@@ -106,7 +114,7 @@ body {
 	justify-content: center;
 }
 
-#cloud-pic h4 {
+#cloud-pic p {
 	text-align: center;
 	font-size: 2em;
 	color: white;
@@ -144,7 +152,7 @@ body {
 }
 
 #tab4 {
-	background-color: #B0DEE9;
+	background-color: white;
 }
 
 .tab-content {
@@ -174,7 +182,7 @@ body {
 }
 
 #fourth {
-	background-color: #B0DEE9;
+	background-color: white;
 	display: none;
 }
 
@@ -209,12 +217,17 @@ body {
 }
 
 #resources .content {
+	width: 70%;
+	margin: auto;
+}
 
+#resources .content p {
+	text-align: center;
+	font-size: 1.5em;
 }
 
 #icon-links ul {
 	text-align: center;
-	padding: 0;
 }
 
 #icon-links ul li {
@@ -233,4 +246,13 @@ body {
 
 #icon-links ul li a i {
 	vertical-align: text-bottom;
+}
+
+#resource-logo {
+	float: left;
+	margin: 0 2em 0 0;
+}
+
+#resource-logo img {
+	height: 150px;
 }
