@@ -10,7 +10,7 @@ var main = function() {
 	});
 	$('#tab3').click(function() {
 		$('.tab-content').hide();
-		$('#third').show().css('display', 'flex');
+		$('#third').show();
 	});
 	$('#tab4').click(function() {
 		$('.tab-content').hide();

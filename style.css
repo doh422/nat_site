@@ -83,7 +83,7 @@ body {
 /*	color: #B0DEE9; */
 	color: black;
 	font-size: 1.75em;
-	font-weight: lighter;
+	text-align: center;
 }
 
 #headshot {
@@ -161,20 +161,38 @@ body {
 	overflow: auto;
 	display: flex;
 	align-items: center;
+	min-height: 325px;
 }
 
 .tab-content img {
-	float: left;
 	height: 300px;
 	margin-right: 2em;
 }
 
 .tab-content li {
 	margin-bottom: 1em;
+	margin-right: .5em;
+}
+
+#box1 {
+	display: flex;
+	align-items: center;
+	width: 80%;
+	margin: auto;
 }
 
 #first {
 	background-color: #B0DEE9;
+}
+
+#first ul {
+	display: inline-block;
+}
+
+#first img {
+	float: right;
+	margin-left: 1em;
+	margin-right: 0;
 }
 
 #second {
@@ -182,14 +200,31 @@ body {
 	display: none;
 }
 
+#second img {
+	float: left;
+	margin-left: 1em;
+}
+
 #third {
 	background-color: #E0E0E0;
 	display: none;
 }
 
+#third img {
+	float: left;
+	margin: 2em;
+}
+
 #fourth {
 	background-color: white;
 	display: none;
+}
+
+#box4 {
+	display: flex;
+	align-items: center;
+	width: 70%;
+	margin: auto;
 }
 
 #lola {
@@ -201,6 +236,7 @@ body {
 	position: relative;
 	z-index: -1;
 	top: -3.75em;
+	text-align: center;
 }
 
 .circle {
