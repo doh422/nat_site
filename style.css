@@ -159,12 +159,18 @@ body {
 	width: 100%;
 	margin: auto;
 	overflow: auto;
+	display: flex;
+	align-items: center;
 }
 
 .tab-content img {
 	float: left;
 	height: 300px;
 	margin-right: 2em;
+}
+
+.tab-content li {
+	margin-bottom: 1em;
 }
 
 #first {
@@ -237,7 +243,7 @@ body {
 
 #icon-links ul li a {
 	text-decoration: none;
-	color: black;
+	color: red;
 }
 
 #icon-links ul li a img {
