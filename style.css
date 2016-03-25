@@ -328,3 +328,8 @@ body {
 #map img {
 	height: 300px;
 }
+
+#footer p {
+	text-align: center;
+	color: #E0E0E0;
+}
