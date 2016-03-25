@@ -314,16 +314,23 @@ body {
 	text-align: center;
 }
 
+#map iframe {
+	width: 90%;
+	height: 25%;
+}
+
+#contact-content {
+	width: 70%;
+	margin: auto;
+}
+
 #contact-me {
 	display: inline-block;
-	width: 40%;
-	margin-left: 10%;
+	width: 50%;
 }
 
 #contact-info {
 	display: inline-block;
-	width: 40%;
-	text-align: right;
 }
 
 form p {
