@@ -309,22 +309,35 @@ body {
 	height: 150px;
 }
 
-#contact-content {
+#map {
+	margin-left: auto;
 	text-align: center;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+}
+
+#map iframe {
+	width: 90%;
+	height: 25%;
+}
+
+#contact-content {
+	width: 70%;
+	margin: auto;
+}
+
+#contact-me {
+	display: inline-block;
+	width: 50%;
 }
 
 #contact-info {
 	display: inline-block;
-	margin-right: 2em;
 }
 
-#map {
-	display: inline-block;
+form input {
+	margin-bottom: 5px;
 }
 
-#map img {
-	height: 300px;
+#footer p {
+	text-align: center;
+	color: #E0E0E0;
 }
