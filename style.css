@@ -333,8 +333,8 @@ body {
 	display: inline-block;
 }
 
-form p {
-	margin-bottom: 0;
+form input {
+	margin-bottom: 5px;
 }
 
 #footer p {
